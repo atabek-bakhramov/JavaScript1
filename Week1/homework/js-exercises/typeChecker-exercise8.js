@@ -18,12 +18,12 @@ function checkType(arg1, arg2) {
     }
 }
 
-console.log(checkType(myName, mySurname));
-console.log(checkType(mySurname, myHobbies));
-console.log(checkType(myDogs, myName));
-console.log(checkType(myDogs, mySurname));
-console.log(checkType(myHobbies, myDogs));
-console.log(checkType(myName, myHobbies));
+checkType(myName, mySurname);
+checkType(mySurname, myHobbies);
+checkType(myDogs, myName);
+checkType(myDogs, mySurname);
+checkType(myHobbies, myDogs);
+checkType(myName, myHobbies);
 
 console.log(typeof myName);
 console.log(typeof myHobbies);
