@@ -1,6 +1,6 @@
 'use strict'
-// the function accepts two parameters
-function gradeCalculator(recievedScore, maxScore) {
+// the function expression accepts two parameters
+const gradeCalculator = (recievedScore, maxScore) => {
     // converting scores into percentage
     const percentage = recievedScore * 100 / maxScore;
     switch (true) { // A question to the mentor: could you tell me please why it didn't work when I wrote (switch(percentage)). Wasn't it a truthy value? 
