@@ -9,3 +9,5 @@ console.log('Selam Dünya'); // Turkish
 console.log('你好，世界') // Chinese
 console.log('こんにちは世界'); // Japanese
 console.log('Salamu, Dunia'); // Swahili
+
+// Don't pay attention please, just testing git push
