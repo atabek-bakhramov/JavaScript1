@@ -1,8 +1,8 @@
 'use strict'
 // the function expression accepts two parameters
-const gradeCalculator = (recievedScore, maxScore) => {
+const gradeCalculator = (receivedScore, maxScore) => {
     // converting scores into percentage
-    const percentage = recievedScore * 100 / maxScore;
+    const percentage = receivedScore * 100 / maxScore;
     switch (true) { // A question to the mentor: could you tell me please why it didn't work when I wrote (switch(percentage)). Wasn't it a truthy value? 
         case (percentage >= 90):
             console.log('Grade A (90% - 100%)');
