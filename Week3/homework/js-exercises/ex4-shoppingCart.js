@@ -8,7 +8,7 @@ const addToShoppingCart = (groceryItem) => {
         shoppingCart.shift();
     }
     console.log(shoppingCart);
-}
+};
 
 addToShoppingCart('chocolate'); // Returns "You bought bananas, milk, chocolate!"
 addToShoppingCart('waffles'); // Returns "You bought milk, chocolate, waffles!"

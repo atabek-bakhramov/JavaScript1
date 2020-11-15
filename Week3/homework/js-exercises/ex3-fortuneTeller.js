@@ -11,7 +11,7 @@ const tellFortune = (numChildren, partnerNames, locations, jobs) => {
     const randomLocation = Math.floor(Math.random() * locations.length);
     const randomJob = Math.floor(Math.random() * jobs.length);
     console.log(`You will be a ${jobs[randomJob]} in ${locations[randomLocation]}, married to ${partnerNames[randomPartnerName]} with ${numChildren[randomNumberOfChildren]} kids.`)
-}
+};
 
 tellFortune(numChildren, partnerNames, locations, jobs);
 tellFortune(numChildren, partnerNames, locations, jobs);
